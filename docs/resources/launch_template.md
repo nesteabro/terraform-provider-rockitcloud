@@ -8,7 +8,7 @@ description: |-
 
 [asg-create]: https://docs.k2.cloud/en/services/compute/autoscaling.html#createautoscalinggroup
 [default-tags]: https://www.terraform.io/docs/providers/aws/index.html#default_tags-configuration-block
-[describe-images]: https://docs.k2.cloud/en/api/ec2/images/DescribeImages.html
+[describe-images]: https://docs.k2.cloud/en/api/ec2/actions/images/DescribeImages.html
 
 # Resource: aws_launch_template
 
@@ -106,7 +106,6 @@ The `ebs` block has the following structure:
 * `snapshot_id` - (Optional) The ID of the snapshot to mount.
 * `volume_size` - (Optional) The size of the volume, in GiB.
 * `volume_type` - (Optional) The type of the volume.
-    * _Valid values:_ `st2`, `gp2`, `io2`
 
 ### monitoring
 
